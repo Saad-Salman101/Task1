@@ -26,7 +26,7 @@ const Page1 = () => {
     };
     
   return (
-    <div className='flex flex-row h-[100vh]'>
+    <div className='flex flex-row h-[100vh] '>
                 {/* <DrawerSideBar/> */}
         {/* <Mysidebar/> */}
         {/* <Mysidebar
@@ -44,7 +44,7 @@ const Page1 = () => {
         
 
     <div className='flex flex-row w-full h-[20vh] justify-between items-center'>
-        <div className='flex flex-col justify-start items-center w-[10%]'><div> <img src='/assets/ZimoDoc.png' alt=''/> </div>  </div>
+        <div className='flex flex-col justify-start items-center w-[10%] ml-5'><div> <img src='/assets/ZimoDoc.png' alt=''/> </div>  </div>
         <div className='flex flex-col justify-center items-center'><div> <img src='/assets/Logo.png' alt='' /></div></div>
         <div className='flex flex-col justify-between items-center mt-3'>
             <div className='flex flex-row justify-center items-center mt-10'><ClockComponent/> <img src='/assets/AccountLogo.png' alt='' className='mx-5 cursor-pointer' /></div> 
@@ -52,8 +52,12 @@ const Page1 = () => {
             </div>
     </div>
         
-        <div className='h-[75vh] w-full flex flex-row justify-end items-center'>
-            <img src='/assets/SidePic.png' alt='' className='h-full' />
+        <div className='h-[80%] w-full flex flex-row justify-end items-center mt-5'>
+            
+            <div className='flex justify-end relative h-full md:w-[20%] w-[70%]'><img src='/assets/SidePic.png' alt='' className='  ' />
+            <img src='/assets/SidePicSign.png' alt='' className='absolute top-18 md:w-[90%] w-[100%]'/>
+            </div>
+            
            
         </div>  
     </div>
