@@ -23,29 +23,33 @@ const Sidebar = () => {
   const getContent = () => {
     if (!isOpen) {
       return (
-<div className='bg-black text-white flex flex-col w-[40px] h-[100vh] justify-around items-start' onClick={handleSidebarToggle}>
-  <div className=' h-0 mb-[-40px] border-t-2 border-golden w-full'>
-  <div className='transform -rotate-90 origin-top-left text-[12px] uppercase w-[80px]'>  &nbsp;  Products</div>
+<div className='bg-black text-white flex flex-col w-[40px] justify-start items-start' onClick={handleSidebarToggle}>
+
+<div className=' h-20  w-full  flex flex-col justify-center items-center'>
+<div className='transform -rotate-90 origin-center text-[12px] uppercase '>    Products</div>
   </div>
-  <div className='h-0 mb-[-10px] border-t-2 border-golden w-full'>
-  <div className='transform -rotate-90 origin-top-left text-[12px] uppercase w-[100px]'>  &nbsp; Solutions</div>
+
+  <div className=' h-20  w-full  flex flex-col justify-center items-center mt-2'>
+<div className='transform -rotate-90 origin-center text-[12px] uppercase  border-r-2 border-golden  px-2'>   Solutions</div>
   </div>
-  <div className=' mb-[-50px] border-t-2 border-golden w-full'>
-  <div className='transform -rotate-90 origin-top-left text-[12px] uppercase  w-[120px] '>  &nbsp; Documentation</div>
+    <div className=' h-28  w-full  flex flex-col justify-center items-center mt-2 '>
+<div className='transform -rotate-90 origin-center text-[12px] uppercase  border-r-2 border-golden  px-2'>   Documentation</div>
   </div>
-  <div className='h-0 mb-[-50px] border-t-2 border-golden w-full'>
-  <div className='transform -rotate-90 origin-top-left text-[12px]  w-[100px] uppercase '> &nbsp;  Electronic <br/> &nbsp; &nbsp; signature</div>
+  <div className=' h-36  w-full  flex flex-col justify-center items-center  mt-2'>
+<div className='transform -rotate-90 origin-center text-[12px] uppercase  w-40 border-r-2 border-golden  px-2'>  Electronic   signature</div>
   </div>
-  <div className=' h-0 mb-[-30px] border-t-2 border-golden w-full'>
-    <div className='transform -rotate-90 origin-top-left  pl-2 w-[100px] text-[12px] uppercase'>Industries</div>
+  <div className=' h-20  w-full  flex flex-col justify-center items-center  mt-2'>
+<div className='transform -rotate-90 origin-center text-[12px] uppercase  border-r-2 border-golden  px-2'>   Industries</div>
   </div>
-  <div className=' h-0  mb-[-60px] border-t-2 border-golden w-full'>
-    <div className='transform -rotate-90 origin-top-left pl-2 w-[100px] text-[12px] uppercase'>Aes 256-bit encryption</div>
+  <div className=' h-36  w-full  flex flex-col justify-center items-center  mt-2'>
+<div className='transform -rotate-90 origin-center text-[12px] uppercase  w-[10rem] border-r-2 border-golden   '>   Aes 256-bit encryption</div>
   </div>
-  <div className='h-0  mb-[-60px] '>
-    <div  className='transform -rotate-90 origin-top-left mb-0 w-[30px] text-[11px] uppercase' >Pricing</div>
-  </div>        
+  <div className=' h-28 w-full  flex flex-col justify-center items-center  mt-2'>
+<div className='transform -rotate-90 origin-center text-[12px] uppercase border-r-2 border-golden  pr-2'>  Pricing</div>
+  </div>
+  
 </div>
+
 
       );
     }
@@ -67,9 +71,9 @@ const Sidebar = () => {
         <img src='/assets/SideBarLogo.png' alt=''  className='h-[70px] w-[183px] mt-2 '/>
         <img src='/assets/Products.png' alt=''  className='h-[18px] w-[238px] mt-2'/>
         </div>
-            <div>
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px]'> signature</div>
-            <div>
+            <div className='mt-4 mr-3'>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px]'> signatures</div>
+            <div >
             <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px]'> signature</div>
               <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px]'> Worlds most secure way to sign and send</div>
             </div>

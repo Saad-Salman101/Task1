@@ -26,7 +26,7 @@ const Page1 = () => {
     };
     
   return (
-    <div className='flex flex-row h-[100vh] '>
+    <div className='flex flex-row  '>
                 {/* <DrawerSideBar/> */}
         {/* <Mysidebar/> */}
         {/* <Mysidebar
