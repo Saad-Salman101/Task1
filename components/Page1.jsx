@@ -34,7 +34,7 @@ const Page1 = () => {
     <div className='flex flex-col w-full h-[20vh] justify-center items-end '>
       <div className='flex flex-row w-full h-[15vh] justify-between items-center '>
         <div className='flex flex-col justify-start items-center w-[10%] ml-5'><div> <img src='/assets/ZimoDoc.png' alt=''/> </div>  </div>
-        <div className='flex flex-col justify-center items-center'><div> <img src='/assets/Logo.png' alt='' /></div></div>
+        <div className='flex flex-col justify-center items-center'><div className='w-[60%] md:w-[100%]'> <img src='/assets/Logo.png' alt='' /></div></div>
         <div className='flex flex-col justify-between items-center mt-3'>
           <div className='flex flex-row justify-center items-center '><ClockComponent/> <img src='/assets/AccountLogo.png' alt='' className='mx-5 cursor-pointer' /></div> 
         </div>

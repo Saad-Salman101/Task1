@@ -28,7 +28,7 @@ const ClockComponent = () => {
     <div>
 
         {locationData && (
-                    <div className='flex flex-row items-center text-[10px] tracking-[2px]'>
+                    <div className='flex flex-row items-center text-[10px] tracking-[2px]  w-[150px] md:w-[20vw] md:mb-0 mb-7'>
                     <div>
                   <div className='flex flex-row uppercase'><div>{getCurrentTime()} {locationData.city} {locationData.country_name}</div></div>
                     <div className='flex flex-row text-golden uppercase'>{getCurrentDate()}</div>
