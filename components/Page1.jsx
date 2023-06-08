@@ -27,29 +27,21 @@ const Page1 = () => {
     
   return (
     <div className='flex flex-row  '>
-                {/* <DrawerSideBar/> */}
-        {/* <Mysidebar/> */}
-        {/* <Mysidebar
-        image={image}
-        collapsed={collapsed}
-        toggled={toggled}
-        handleToggleSidebar={handleToggleSidebar}
-        handleCollapsedChange={handleCollapsedChange}
-      /> */}
-              {/* <div className="btn-toggle" onClick={() => handleToggleSidebar(true)}>
-          <FaBars />
-        </div> */}
         <SideBar/>
     <div className=' w-full flex flex-col justify-between'>
         
 
-    <div className='flex flex-row w-full h-[20vh] justify-between items-center'>
+    <div className='flex flex-col w-full h-[20vh] justify-center items-end '>
+      <div className='flex flex-row w-full h-[15vh] justify-between items-center '>
         <div className='flex flex-col justify-start items-center w-[10%] ml-5'><div> <img src='/assets/ZimoDoc.png' alt=''/> </div>  </div>
         <div className='flex flex-col justify-center items-center'><div> <img src='/assets/Logo.png' alt='' /></div></div>
         <div className='flex flex-col justify-between items-center mt-3'>
-            <div className='flex flex-row justify-center items-center mt-10'><ClockComponent/> <img src='/assets/AccountLogo.png' alt='' className='mx-5 cursor-pointer' /></div> 
-            <div className='mt-5'><img src='/assets/ZimoAi.png' alt='' /> <img src='/assets/TryForFree.png' alt=''  className='my-5'/> </div>
-            </div>
+          <div className='flex flex-row justify-center items-center '><ClockComponent/> <img src='/assets/AccountLogo.png' alt='' className='mx-5 cursor-pointer' /></div> 
+        </div>
+      </div>
+      <div className='w-full h-[5vh] flex justify-end items-center '>
+        <div className='mt-5'><img src='/assets/ZimoAi.png' alt='' /> <img src='/assets/TryForFree.png' alt=''  className='my-5'/> </div>
+      </div>
     </div>
         
         <div className='h-[80%] w-full flex flex-row justify-end items-center mt-5'>

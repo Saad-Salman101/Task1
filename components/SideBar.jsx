@@ -15,7 +15,7 @@ const Sidebar = () => {
   };
 
   const sidebarStyle = {
-    width: isOpen ? '300px' : '40px', // Adjust the width when open or closed
+    width: isOpen ? '262px' : '40px', // Adjust the width when open or closed
     transition: 'width 0.2s ease-in-out',
     backgroundColor: isOpen ? 'black' : 'transparent', // Set the background color to red when open, transparent when closed
   };
@@ -66,7 +66,7 @@ const Sidebar = () => {
         direction="left"
         style={sidebarStyle}
       >
-        <div className='h-[100vh] flex flex-col items-start ml-2'>
+        <div className='h-[100vh] flex flex-col items-start ml-2 overflow-y-scroll'>
           <div className='flex flex-col'>
         <img src='/assets/SideBarLogo.png' alt=''  className='h-[70px] w-[183px] mt-2 '/>
         <img src='/assets/Products.png' alt=''  className='h-[18px] w-[238px] mt-2'/>
