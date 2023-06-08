@@ -23,7 +23,7 @@ const Sidebar = () => {
   const getContent = () => {
     if (!isOpen) {
       return (
-<div className='bg-black text-white flex flex-col w-[40px] justify-start items-start' onClick={handleSidebarToggle}>
+<div className='bg-black text-white flex flex-col h-full w-[40px] justify-start items-start' onClick={handleSidebarToggle}>
 
 <div className=' h-20  w-full  flex flex-col justify-center items-center'>
 <div className='transform -rotate-90 origin-center text-[12px] uppercase '>    Products</div>

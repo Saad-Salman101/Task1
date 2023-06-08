@@ -40,13 +40,13 @@ const Page1 = () => {
         </div>
       </div>
       <div className='w-full h-[5vh] flex justify-end items-center '>
-        <div className='mt-5'><img src='/assets/ZimoAi.png' alt='' /> <img src='/assets/TryForFree.png' alt=''  className='my-5'/> </div>
+        <div className='mt-5'><img src='/assets/ZimoAi.png' alt='' /> <img src='/assets/TryForFree.png' alt=''  className='my-5 mr-20'/> </div>
       </div>
     </div>
         
         <div className='h-[80%] w-full flex flex-row justify-end items-center mt-5'>
             
-            <div className='flex justify-end relative h-full md:w-[20%] w-[70%]'><img src='/assets/SidePic.png' alt='' className='  ' />
+            <div className='flex justify-end relative h-full md:w-[541px] w-[70%]'><img src='/assets/SidePic.png' alt='' className='  ' />
             <img src='/assets/SidePicSign.png' alt='' className='absolute top-18 md:w-[90%] w-[100%]'/>
             </div>
             
