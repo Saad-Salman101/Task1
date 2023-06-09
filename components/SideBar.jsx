@@ -29,17 +29,17 @@ const Sidebar = () => {
 <div className='transform -rotate-90 origin-center text-[11px] uppercase tracking-[2px] '>    Products</div>
   </div>
 
-  <div className='  h-[90px]  w-full  flex flex-col justify-center items-center mt-2 '>
-<div className='transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-2 tracking-[2px] '>   Solutions</div>
+  <div className='  h-[110px]  w-full  flex flex-col justify-center items-center mt-2 '>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase w-[110px]  border-r-2 border-golden  px-2 tracking-[2px] '>   Solutions</div>
   </div>
-    <div className='  h-[142px]  w-full  flex flex-col justify-center items-center mt-2 '>
+    <div className='  h-[160px]  w-full  flex flex-col justify-center items-center mt-2 '>
 <div className='transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-2 tracking-[2px]'>   Documentation</div>
   </div>
   <div className='  h-[197px]  w-full  flex flex-col justify-center items-center  mt-2 '>
-<div className='transform -rotate-90 origin-center text-[11px] uppercase w-[197px]  border-r-2 border-golden  px-2 tracking-[2px]'>  Electronic   signature</div>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase w-[197px]  border-r-2 border-golden  px-2 tracking-[2px] '>  Electronic   signature</div>
   </div>
   <div className='  h-[200px]  w-full  flex flex-col justify-center items-center  '>
-<div className='transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-2 tracking-[2px]'>   Industries</div>
+<div className=' w-[120px] transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-2 tracking-[2px]'>   Industries</div>
   </div>
   <div className=' h-36  w-full  flex flex-col justify-center items-center  mt-2 '>
 <div className='transform -rotate-90 origin-center text-[11px] uppercase  w-[207px] border-r-2 border-golden  tracking-[2px]  '>   Aes 256-bit encryption</div>
