@@ -36,11 +36,11 @@ const Page1 = () => {
         <div className='flex flex-col justify-start items-center w-[10%] ml-5'><div> <img src='/assets/ZimoDoc.png' alt=''/> </div>  </div>
         <div className='flex flex-col justify-center items-center'><div className='w-[60%] md:w-[100%]'> <img src='/assets/Logo.png' alt='' /></div></div>
         <div className='flex flex-col justify-between items-center mt-3'>
-          <div className='flex flex-row justify-center items-center '><ClockComponent/> <img src='/assets/AccountLogo.png' alt='' className='mx-5 cursor-pointer' /></div> 
+          <div className='flex flex-row justify-center items-center '><ClockComponent/> <img src='/assets/AccountLogo.png' alt='' className='mx-4 cursor-pointer' /></div> 
         </div>
       </div>
       <div className='w-full h-[5vh] flex justify-end items-center '>
-        <div className='mt-5'><img src='/assets/ZimoAi.png' alt='' /> <img src='/assets/TryForFree.png' alt=''  className='my-5 mr-20'/> </div>
+        <div className='mt-5'><img src='/assets/ZimoAi.png' alt='' /> <img src='/assets/TryForFree.png' alt=''  className='my-5 mr-28'/> </div>
       </div>
     </div>
         

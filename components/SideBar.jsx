@@ -23,29 +23,29 @@ const Sidebar = () => {
   const getContent = () => {
     if (!isOpen) {
       return (
-<div className='bg-black text-white flex flex-col h-full w-[40px] justify-start items-start' onClick={handleSidebarToggle}>
+<div className='bg-black text-white flex flex-col h-[1079px] w-[40px] justify-start items-start' onClick={handleSidebarToggle}>
 
-<div className=' h-20  w-full  flex flex-col justify-center items-center'>
-<div className='transform -rotate-90 origin-center text-[12px] uppercase '>    Products</div>
+<div className=' h-[110px]  w-full  flex flex-col justify-center items-center'>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase tracking-[2px] '>    Products</div>
   </div>
 
-  <div className=' h-20  w-full  flex flex-col justify-center items-center mt-2'>
-<div className='transform -rotate-90 origin-center text-[12px] uppercase  border-r-2 border-golden  px-2'>   Solutions</div>
+  <div className='  h-[90px]  w-full  flex flex-col justify-center items-center mt-2 '>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-2 tracking-[2px] '>   Solutions</div>
   </div>
-    <div className=' h-28  w-full  flex flex-col justify-center items-center mt-2 '>
-<div className='transform -rotate-90 origin-center text-[12px] uppercase  border-r-2 border-golden  px-2'>   Documentation</div>
+    <div className='  h-[142px]  w-full  flex flex-col justify-center items-center mt-2 '>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-2 tracking-[2px]'>   Documentation</div>
   </div>
-  <div className=' h-36  w-full  flex flex-col justify-center items-center  mt-2'>
-<div className='transform -rotate-90 origin-center text-[12px] uppercase  w-40 border-r-2 border-golden  px-2'>  Electronic   signature</div>
+  <div className='  h-[197px]  w-full  flex flex-col justify-center items-center  mt-2 '>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase w-[197px]  border-r-2 border-golden  px-2 tracking-[2px]'>  Electronic   signature</div>
   </div>
-  <div className=' h-20  w-full  flex flex-col justify-center items-center  mt-2'>
-<div className='transform -rotate-90 origin-center text-[12px] uppercase  border-r-2 border-golden  px-2'>   Industries</div>
+  <div className='  h-[200px]  w-full  flex flex-col justify-center items-center  '>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-2 tracking-[2px]'>   Industries</div>
   </div>
-  <div className=' h-36  w-full  flex flex-col justify-center items-center  mt-2'>
-<div className='transform -rotate-90 origin-center text-[12px] uppercase  w-[10rem] border-r-2 border-golden   '>   Aes 256-bit encryption</div>
+  <div className=' h-36  w-full  flex flex-col justify-center items-center  mt-2 '>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase  w-[207px] border-r-2 border-golden  tracking-[2px]  '>   Aes 256-bit encryption</div>
   </div>
-  <div className=' h-28 w-full  flex flex-col justify-center items-center  mt-2'>
-<div className='transform -rotate-90 origin-center text-[12px] uppercase border-r-2 border-golden  pr-2'>  Pricing</div>
+  <div className=' h-[100px] w-full  flex flex-col justify-center items-center  mt-10'>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase border-r-2 border-golden  pr-2 tracking-[2px]'>  Pricing</div>
   </div>
   
 </div>
