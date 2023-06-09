@@ -2,16 +2,29 @@
 import React, { useState } from 'react';
 import Drawer from 'react-modern-drawer';
 import 'react-modern-drawer/dist/index.css';
+import { useDispatch, useSelector } from "react-redux";
 
 const Sidebar = () => {
+  const dispatch = useDispatch();
+  // const { sidebarstate } = useSelector((state) => state.custom);
   const [isOpen, setIsOpen] = useState(false);
+
+
+  const sidebaropen = () => {
+    dispatch({ type: "sidebaropen" });
+};
+const sidebaroff = () => {
+    dispatch({ type: "sidebaroff" });
+};
 
   const handleSidebarToggle = () => {
     setIsOpen(!isOpen);
+    sidebaropen();
   };
 
   const handleOverlayClick = () => {
     setIsOpen(false);
+    sidebaroff();
   };
 
   const sidebarStyle = {

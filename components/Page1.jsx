@@ -7,12 +7,15 @@ import Mysidebar from './Mysidebar'
 // import  FaTachometerAlt from 'react-icons/fa';
 import image from '../public/assets/ZimoAi.png'
 import { FaBars } from 'react-icons/fa';
+import { useSelector } from "react-redux";
 
 const Page1 = () => {
     const [collapsed, setCollapsed] = useState(false);
     // const [image, setImage] = useState(false);
     // const [toggled, setToggled] = useState(false);
-  
+    const { sidebarstate } = useSelector((state) => state.custom);
+    console.log(sidebarstate)
+    
     const handleCollapsedChange = () => {
       setCollapsed(!collapsed);
     };
@@ -37,11 +40,13 @@ const Page1 = () => {
         <div className='flex flex-col justify-start items-center w-[10%] ml-5'><div> <img src='/assets/ZimoDoc.png' alt=''/> </div>  </div>
         <div className='flex flex-col justify-center items-center '><div className='w-[60%] md:w-[100%]'> <img src='/assets/Logo.png' alt='' /></div></div>
         <div className='flex flex-col justify-between items-center mt-3 mr-5'>
-          <div className='flex flex-row justify-center items-center '><ClockComponent/> <img src='/assets/AccountLogo.png' alt='' className='mx-4 cursor-pointer' /></div> 
+          <div className='flex flex-row justify-center items-center '><ClockComponent/> 
+            <div><img src='/assets/AccountLogo.png' alt='' /> </div> </div> 
         </div>
       </div>
-      <div className='w-full h-[5vh] flex justify-end items-center '>
-        <div className='mt-5 flex-col flex items-end  mr-10'><img src='/assets/ZimoAi.png' alt='' className=' ' /> <img src='/assets/TryForFree.png' alt=''  className='mt-5 '/> </div>
+      <div className='w-full h-[5vh] flex justify-end items-center  '>
+        <div className='mt-5 flex-col flex items-end  mr-10 '><img src='/assets/ZimoAi.png' alt='' className=' ' />
+        {sidebarstate === 'off' && <img src='/assets/TryForFree.png' alt='' className='mt-5 ' />} </div>
       </div>
     </div>
         
