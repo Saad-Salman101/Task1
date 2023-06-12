@@ -35,8 +35,8 @@ const ClockComponent = () => {
                     </div>
                         <p className='mx-5'>
                           <CountryFlag countryCode={locationData.country_code} svg           style={{
-            width: '50px',
-            height: '50px',
+            width: '20px',
+            height: '20px',
             objectFit: 'cover',
           }}  className='rounded-lg w-[100%]'/>
                         </p>

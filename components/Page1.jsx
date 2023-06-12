@@ -36,10 +36,10 @@ const Page1 = () => {
         
 
     <div className='flex flex-col w-full h-[30vh] justify-start items-end  '>
-      <div className='flex flex-row w-full h-[15vh] justify-between items-center  '>
-        <div className='flex flex-col justify-start items-center w-[10%] ml-5'><div> <img src='/assets/ZimoDoc.png' alt=''/> </div>  </div>
-        <div className='flex flex-col justify-center items-center '><div className='w-[60%] md:w-[100%]'> <img src='/assets/Logo.png' alt='' /></div></div>
-        <div className='flex flex-col justify-between items-center mt-3 mr-10'>
+      <div className='flex flex-row w-full h-[15vh] justify-between items-center'>
+        <div className='flex flex-col justify-start items-start  ml-5 flex-1  '><div> <img src='/assets/ZimoDoc.png' alt=''/> </div>  </div>
+        <div className='flex flex-col justify-center items-center flex-1 '> <img src='/assets/Logo.png' alt='' /></div>
+        <div className='flex flex-col justify-between items-end mt-3 mr-10 flex-1 '>
           <div className='flex flex-row justify-center items-center '><ClockComponent/> 
             <div><img src='/assets/AccountLogo.png' alt='' /> </div> </div> 
         </div>
