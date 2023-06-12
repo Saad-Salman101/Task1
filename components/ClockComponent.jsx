@@ -28,13 +28,20 @@ const ClockComponent = () => {
     <div>
 
         {locationData && (
-                    <div className='flex flex-row items-center text-[10px]  w-[150px] md:w-[18vw] md:mb-0 mb-7'>
+                    <div className='flex flex-row items-center text-[10px]  w-[200px] md:w-[18vw] md:mb-0 mb-7 '>
                     <div className='flex justify-end flex-col w-full'>
-                  <div className='flex flex-row uppercase justify-center tracking-[2px] '>{getCurrentTime()} &nbsp; <div className='w-'>{locationData.city} {locationData.country_name}</div></div>
-                    <div className='flex flex-row text-golden uppercase w-full justify-end tracking-[1px]  '>{getCurrentDate()}</div>
+                  <div className='flex flex-row uppercase justify-end tracking-[2px] text-right'>{getCurrentTime()} &nbsp; <div className='w-'>{locationData.city} {locationData.country_name}</div></div>
+                    <div className='flex flex-row text-golden uppercase w-full justify-end tracking-[1px] text-right  '>{getCurrentDate()}</div>
                     </div>
                         <p className='mx-5'>
-                          <CountryFlag countryCode={locationData.country_code} svg style={{ width: '3em', height: '2em' }}  className='rounded-lg'/>
+                          <CountryFlag countryCode={locationData.country_code} svg           style={{
+            width: '3em',
+            height: '3em',
+            '@media (max-width: 768px)': {
+              width: '5em',
+              height: '5em',
+            },
+          }}  className='rounded-lg w-[100%]'/>
                         </p>
                     </div>
 
