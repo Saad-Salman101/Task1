@@ -81,8 +81,8 @@ const sidebaroff = () => {
       >
         <div className='h-[100vh] flex flex-col items-start ml-2 overflow-y-scroll'>
           <div className='flex flex-col'>
-        <img src='/assets/SideBarLogo.png' alt=''  className='h-[70px] w-[183px] mt-2 '/>
-        <img src='/assets/Products.png' alt=''  className='h-[18px] w-[238px] mt-2'/>
+        <img src='/assets/SideBarLogo.png' alt=''  className=' w-[183px] mt-2 '/>
+        <img src='/assets/Products.png' alt=''  className=' w-[238px] mt-2'/>
         </div>
             <div className='mt-4 mr-3'>
             <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px]'> signatures</div>
