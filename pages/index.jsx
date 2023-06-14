@@ -11,7 +11,9 @@ export default function Home() {
     <>
       <Head>
         <title>Boilerplate</title>
+        
       </Head>
+      
 
       <main>
 <Page1/>

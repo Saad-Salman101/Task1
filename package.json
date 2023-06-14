@@ -10,6 +10,7 @@
     "prod": "next build && next export -o build"
   },
   "dependencies": {
+    "@fontsource/lato": "^5.0.3",
     "@reduxjs/toolkit": "^1.9.5",
     "autoprefixer": "10.4.14",
     "eslint": "8.40.0",
