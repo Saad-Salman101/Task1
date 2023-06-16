@@ -53,13 +53,13 @@ const sidebaroff = () => {
 <div className='transform -rotate-90 origin-center text-[11px] uppercase w-[110px]  border-r-2 border-golden  px-2 tracking-[2px] '>   Solutions</div>
   </div>
     <div className='  h-[160px]  w-full  flex flex-col justify-center items-center mt-2 '>
-<div className='transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-2 tracking-[2px]'>   Documentation</div>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-3 tracking-[2px] '> Documentation</div>
   </div>
-  <div className='  h-[197px]  w-full  flex flex-col justify-center items-center  mt-2 '>
-<div className='transform -rotate-90 origin-center text-[11px] uppercase w-[197px]  border-r-2 border-golden  px-2 tracking-[2px] '  >  Electronic   signature</div>
+  <div className='  h-[197px]  w-full  flex flex-col justify-center items-center  '>
+<div className='transform -rotate-90 origin-center text-[11px] uppercase w-[197px]  border-r-2 border-golden   tracking-[2px]  '  >Electronic   signature</div>
   </div>
-  <div className='  h-[200px]  w-full  flex flex-col justify-center items-center  '>
-<div className=' w-[120px] transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-2 tracking-[2px]'>   Industries</div>
+  <div className='  h-[170px]  w-full  flex flex-col justify-center items-center '>
+<div className=' w-[120px] transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden  px-4 tracking-[2px]'>   Industries</div>
   </div>
   <div className=' h-36  w-full  flex flex-col justify-center items-center  mt-2 '>
 <div className='transform -rotate-90 origin-center text-[11px] uppercase  w-[207px] border-r-2 border-golden  tracking-[2px]  '>   Aes 256-bit encryption</div>
@@ -94,53 +94,53 @@ const sidebaroff = () => {
             <div className='mt-4 mr-3'>
             <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/signatures')}> signatures</div>
             <div >
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/signatures')}> signature</div>
-              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px]'> Worlds most secure way to sign and send</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/signatures')}>electronic signature</div>
+              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px] my-1'> Worlds most secure way to sign and send</div>
             </div>
             <div>
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/ewitness')}> e-witness</div>
-              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px]'>witness and sign confidentail and high vakue agreements/contracts</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/ewitness')}> e-witness</div>
+              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px] my-1'>witness and sign confidential and high vakue agreements/contracts</div>
             </div>
             <div>
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/identityverification')}> identify verification</div>
-              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px]'>working seamlessly with aes 256 bit encryption and zimo meet</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/identityverification')}> identify verification</div>
+              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px] my-1'>working seamlessly with aes 256 bit encryption and zimo meet</div>
             </div>
 
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/contracts')}> contracts</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/contracts')}> contracts</div>
             <div>
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/contractagreement')}> contract/agreement management</div>
-              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px]'>organised, automated document work flows</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/contractagreement')}> contract/agreement management</div>
+              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-right tracking-[2px] my-1'>organised, automated document work flows</div>
             </div>
             <div>
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/documentgeneration')}> document generation</div>
-              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px]'>generate documents seamlessly through your dedicated portal</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/documentgeneration')}> document generation</div>
+              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px] my-1'>generate documents seamlessly through your dedicated portal</div>
             </div>
             <div>
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-ponter' onClick={() => handleSidebarItemClick('/datasecurity')}> data security</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-ponter my-2' onClick={() => handleSidebarItemClick('/datasecurity')}> data security</div>
               <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[1.5px] leading-4'>all signatures, contracts, agreements, documents and witness statements kept under aes 256-bit encryption for the duration of your membership</div>
             </div>
 
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/history')}> history</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/history')}> history</div>
             <div>
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/docsafe')}> doc.safe</div>
-              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px]'> search, view, download and share every single signature, contract, agreement, and document from your portal</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/docsafe')}> doc.safe</div>
+              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px] my-1'> search, view, download and share every single signature, contract, agreement, and document from your portal</div>
             </div>
 
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/more')}> more</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px] cursor-pointer my-1' onClick={() => handleSidebarItemClick('/more')}> more</div>
             <div>
             <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/payment')}> payemnts </div>
-              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px]'> agree, sign and make payment(s) in a single click</div>
+              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px] my-1'> agree, sign and make payment(s) in a single click</div>
             </div>
             <div>
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/clickwraps')}> clickwraps </div>
-              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px]'> capture consent with a single click</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/clickwraps')}> clickwraps </div>
+              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px] my-1'> capture consent with a single click</div>
             </div>
             <div>
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer' onClick={() => handleSidebarItemClick('/webforms')}> web forms </div>
-              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px]'> incorporate data collection and speed  up signing</div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/webforms')}> web forms </div>
+              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px] my-1'> incorporate data collection and speed  up signing</div>
             </div>
 
-            <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px] flex flex-row justify-end  cursor-pointer' onClick={() => handleSidebarItemClick('/allproducts')}> all products <img src='/assets/SideBarRightArrow.png' alt='' className='ml-5' /> </div>
+            <div className='w-full uppercase text-[10px] text-white font-semibold text-right tracking-[2px] flex flex-row justify-end  cursor-pointer my-2' onClick={() => handleSidebarItemClick('/allproducts')}> all products <img src='/assets/SideBarRightArrow.png' alt='' className='ml-5' /> </div>
 
 
             </div>

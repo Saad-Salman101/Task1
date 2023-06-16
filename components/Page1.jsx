@@ -53,7 +53,7 @@ const Page1 = () => {
         <div className='h-[80%] w-full flex flex-row justify-end items-center  '>
             
             <div className='flex justify-end relative h-full md:w-[541px] w-[70%] '><img src='/assets/SidePic.png' alt='' className=' w-full h-full ' />
-            <img src='/assets/SidePicSign.png' alt='' className='absolute top-18 md:w-[90%] w-[100%]'/>
+            <img src='/assets/SidePicSign.png' alt='' className='absolute right-7 top-2 md:w-[90%] w-[80%]'/>
             </div>
             
            
