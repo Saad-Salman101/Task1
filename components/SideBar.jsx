@@ -99,7 +99,7 @@ const sidebaroff = () => {
             </div>
             <div>
             <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/ewitness')}> e-witness</div>
-              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px] my-1'>witness and sign confidential and high vakue agreements/contracts</div>
+              <div className='w-full uppercase text-[9px] text-gray-600 font-semibold text-left tracking-[2px] my-1'>witness and sign confidential and high value agreements/contracts</div>
             </div>
             <div>
             <div className='w-full uppercase text-[10px] text-white font-semibold text-left tracking-[2px] cursor-pointer my-2' onClick={() => handleSidebarItemClick('/identityverification')}> identify verification</div>
