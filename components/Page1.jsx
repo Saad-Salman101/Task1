@@ -11,22 +11,14 @@ import { useSelector } from "react-redux";
 
 const Page1 = () => {
     const [collapsed, setCollapsed] = useState(false);
-    // const [image, setImage] = useState(false);
-    // const [toggled, setToggled] = useState(false);
     const { sidebarstate } = useSelector((state) => state.custom);
-    // console.log(sidebarstate)
+
     
     const handleCollapsedChange = () => {
       setCollapsed(!collapsed);
     };
   
-    // const handleImageChange = (checked) => {
-    //   setImage(checked);
-    // };
-  
-    // const handleToggleSidebar = (value) => {
-    //   setToggled(value);
-    // };
+
     
   return (
     <div className='flex flex-row  '>
@@ -38,7 +30,7 @@ const Page1 = () => {
     <div className='flex flex-col w-full h-[30vh] justify-start items-end  '>
       <div className='flex flex-row w-full h-[15vh] justify-between items-center'>
         <div className='flex flex-col justify-start items-start ml-0 md:ml-5 flex-1  '><div> <img src='/assets/ZimoDoc.png' alt='' className='w-[129px]'/> </div>  </div>
-        <div className='flex flex-col justify-center items-center flex-1 '> <img src='/assets/Logo.png' alt='' className=' md:w-[240px] ' /></div>
+        <div className='flex flex-col justify-center items-center flex-1 '> <img src='/assets/Logo.png' alt='' className=' md:w-[240px] mr-5 ' /></div>
         <div className='flex flex-col justify-between items-end mt-3 mr-0 md:mr-10 flex-1 '>
           <div className='flex flex-row justify-center items-center  '><ClockComponent/> 
             <div><img src='/assets/AccountLogo.png' alt=''className='w-[25px] h-[25px]' /> </div> </div> 
