@@ -23,15 +23,15 @@ const Page1 = () => {
     <div className='flex flex-row  min-h-screen overflow-y-hidden'>
         <SideBar onClick={() => console.log("hello")} />
 
-    <div className=' w-full flex flex-col justify-between'>
+    <div className=' w-full flex flex-col justify-start'>
         
 
-    <div className='flex flex-col w-full justify-start items-end '>
-      <div className='flex flex-row w-full  justify-between items-center mt-8 3xl:mt-14'>
-        <div className='flex flex-col justify-start items-start ml-0 md:ml-5 flex-1  '><div> <img src='/assets/ZIDOC_Logo_Black_CMYK.SVG' alt='' className='w-[129px] ml-4'/> </div>  </div>
-        <div className='flex flex-col justify-center items-center flex-1 '> <img src='/assets/ZigBlack.svg' alt='' className=' md:w-[240px] mr-5 ' /></div>
-        <div className='flex flex-col justify-between items-end mt-3 mr-10 3xl:mr-10 flex-1'>
-          <div className='flex flex-row justify-center items-center  '><div className='mr-8'><ClockComponent /> </div> 
+    <div className='flex flex-col w-full justify-start items-end mt-0'>
+      <div className='flex flex-row w-full  justify-between items-center mt-0 xl:mt-14'>
+        <div className='flex flex-col justify-start items-start ml-0 md:ml-5 flex-1  '><div> <img src='/assets/ZIDOC_Logo_Black_CMYK.svg' alt='' className='xl:w-[129px] w-[100px] ml-4'/> </div>  </div>
+        <div className='flex flex-col justify-center items-center flex-1 '> <img src='/assets/ZigBlack.svg' alt='' className=' xl:w-[240px] w-[200px] mr-5 ' /></div>
+        <div className='flex flex-col justify-between items-end mt-3 mr-10 flex-1'>
+          <div className='flex flex-row justify-center items-center'><div className='mr-2 xl:mr-8'><ClockComponent /> </div> 
             <div><img src='/assets/ZIMOUserIconB.svg' alt=''className='w-[25px] h-[25px]' /> </div> </div> 
         </div>
       </div>
@@ -41,9 +41,9 @@ const Page1 = () => {
       </div>
     </div>
         
-        <div className=' w-full flex flex-row justify-end items-center'>
+        <div className=' w-full flex flex-row justify-end items-center '>
             
-            <div className='flex justify-end relative 3xl:h-[846px] mt-5'><img src='/assets/SidePic.png' alt='' className=' w-full h-full ' />
+            <div className='flex justify-end relative xl:h-[846px] h-[700px] mt-5'><img src='/assets/SidePic.png' alt='' className=' w-full h-full ' />
             <img src='/assets/SidePicSign.png' alt='' className='absolute right-7 top-2 md:w-[90%] w-[80%]'/>
             </div>
             
