@@ -26,7 +26,7 @@ const Page1 = () => {
     <div className=' w-full flex flex-col justify-start'>
         
 
-    <div className='flex flex-col w-full justify-start items-end mt-0 '>
+    <div className='flex flex-col w-full justify-start items-end mt-2 '>
       <div className='flex flex-row w-full  justify-between items-center mt- 2xl:mt-14 '>
         <div className='flex flex-col justify-start items-start ml-0 md:ml-5 flex-1  '><div> <img src='/assets/ZIDOC_Logo_Black_CMYK.svg' alt='' className='2xl:w-[129px] w-[100px] ml-4'/> </div>  </div>
         <div className='flex flex-col justify-center items-center flex-1 '> <img src='/assets/ZigBlack.svg' alt='' className=' 2xl:w-[240px] w-[200px] mr-5 ' /></div>
