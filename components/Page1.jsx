@@ -43,7 +43,7 @@ const Page1 = () => {
         
         <div className=' w-full flex flex-row justify-end items-center '>
             
-            <div className='flex justify-end relative 2xl:h-[846px] h-[700px] mt-5'><img src='/assets/SidePic.png' alt='' className=' w-full h-full ' />
+            <div className='flex justify-end relative 2xl:h-[846px]  2xl: w-[441px] h-[700px] mt-5'><img src='/assets/MAli-EXAMPLE.png' alt='' className=' w-full h-full rounded-2xl' />
             <img src='/assets/SidePicSign.png' alt='' className='absolute right-7 top-2 md:w-[90%] w-[80%]'/>
             </div>
             
