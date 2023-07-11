@@ -16,8 +16,12 @@ const ClockComponent = () => {
   const getCurrentDate = () => {
     const date = new Date();
     const options = { weekday: 'long', day: 'numeric', year: 'numeric', month: 'long' };
-    return date.toLocaleDateString(undefined, options);
+    const currentDate = date.toLocaleDateString(undefined, options);
+    const formattedDate = currentDate.replace(/,/, '');
+  
+    return formattedDate;
   };
+  
 
   const getCurrentTime = () => {
     const timeStr = moment().format('HH:mm');
