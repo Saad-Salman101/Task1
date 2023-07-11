@@ -1,4 +1,4 @@
-import Page1 from "@/components/Page1";
+import Page1 from "@/components/Landing Page/LandingPage";
 // import { decremented, incremented } from "@/src/store/features/counterSlice";
 import Head from "next/head";
 // import { useDispatch, useSelector } from "react-redux";
