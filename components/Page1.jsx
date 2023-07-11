@@ -23,11 +23,11 @@ const Page1 = () => {
     <div className='flex flex-row  min-h-screen overflow-y-hidden'>
         <SideBar onClick={() => console.log("hello")} />
 
-    <div className=' w-full flex flex-col justify-start'>
+    <div className=' w-full flex flex-col justify-start relative'>
         
 
     <div className='flex flex-col w-full justify-start items-end mt-2 '>
-      <div className='flex flex-row w-full  justify-between items-center mt- 2xl:mt-14 '>
+      <div className='flex flex-row w-full  justify-between items-center mt- 2xl:mt-10 '>
         <div className='flex  justify-between items-center  flex-1  '><div className='relative ml-0 md:ml-5'> <img src='/assets/ZIDOC_Logo_Black_CMYK.svg' alt='' className='2xl:w-[129px] w-[100px] ml-4 '/><img src='/assets/SecurityLockB.svg' alt='' className='w-[5px] absolute right-0 top-[-10px]'/> </div> </div>
         <div className='flex flex-col justify-center items-center flex-1 absolute right-[350px] xl:right-[650px] lg:right-[500px]  2xl:right-[800px]'> <img src='/assets/ZigBlack.svg' alt='' className=' 2xl:w-[240px] w-[200px] mr-5 ' /></div>
         <div className='flex flex-col justify-between items-end mt-3 mr-10 flex-1 '>
@@ -42,11 +42,11 @@ const Page1 = () => {
     </div>
         
         <div className=' w-full flex flex-row justify-end items-center '>
-            
+            <div className='absolute bottom-0'> 
             <div className='flex justify-end relative w-[600px] 3xl:w-[700px] mt-5 ml-20 sm:ml-0'><img src='/assets/MAli-EXAMPLE.png' alt='' className=' w-full h-full rounded-tl-2xl rounded-bl-2xl mt-5' />
             <img src='/assets/SidePicSign.png' alt='' className='absolute right-4 top-10 md:w-[90%] w-[80%]'/>
             </div>
-            
+            </div>
            
         </div>  
     </div>
