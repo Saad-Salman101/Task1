@@ -56,26 +56,26 @@ const sidebaroff = () => {
       return (
 <div className='bg-black text-white flex flex-col min-h-screen w-[40px] justify-start items-start overflow-y-hidden' onClick={handleSidebarToggle}>
 
-<div className='h-[90px] 2xl:h-[110px]  w-full  flex flex-col justify-center items-center mt-1  ' onClick={() => handleTabClick('products')}>
+<div className='h-[90px] 2xl:h-[110px]  w-full  flex flex-col justify-center items-center mt-1 hover:text-golden cursor-pointer ' onClick={() => handleTabClick('products')}>
 <div className='transform -rotate-90 origin-center text-[11px] uppercase tracking-[2px] w-[70px] '>    Products</div>
   </div>
 
-  <div className='h-[90px]  2xl:h-[110px]  w-full  flex flex-col justify-center items-center 2xl:mt-2 '  onClick={() => handleTabClick('solutions')}>
+  <div className='h-[90px]  2xl:h-[110px]  w-full  flex flex-col justify-center items-center 2xl:mt-2 hover:text-golden cursor-pointer '  onClick={() => handleTabClick('solutions')}>
 <div className='transform -rotate-90 origin-center text-[11px] uppercase w-[90px]  2xl:w-[110px]  border-r-2 border-golden  2xl:px-2 tracking-[2px] '>   Solutions</div>
   </div>
-    <div className='h-[110px]  2xl:h-[160px]  w-full  flex flex-col justify-center items-center 2xl:mt-2 mt-5'  onClick={() => handleTabClick('documentation')}>
+    <div className='h-[110px]  2xl:h-[160px]  w-full  flex flex-col justify-center items-center 2xl:mt-2 mt-5 hover:text-golden cursor-pointer'  onClick={() => handleTabClick('documentation')}>
 <div className='transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden px-1 2xl:px-3 tracking-[2px] '> Documentation</div>
   </div>
-  <div className='h-[155px]  2xl:h-[197px]  w-full  flex flex-col justify-center items-center 2xl:mt-4 mt-6'  onClick={() => handleTabClick('electronic-signature')}>
+  <div className='h-[155px]  2xl:h-[197px]  w-full  flex flex-col justify-center items-center 2xl:mt-4 mt-6 hover:text-golden cursor-pointer'  onClick={() => handleTabClick('electronic-signature')}>
 <div className='transform -rotate-90 origin-center text-[11px] uppercase 2xl:w-[197px] w-[175px]  border-r-2 border-golden   tracking-[2px]  '  >Electronic   signature</div>
   </div>
-  <div className='h-[130px]  2xl:h-[170px]  w-full  flex flex-col justify-center items-center '  onClick={() => handleTabClick('industries')}>
+  <div className='h-[130px]  2xl:h-[170px]  w-full  flex flex-col justify-center items-center  hover:text-golden cursor-pointer'  onClick={() => handleTabClick('industries')}>
 <div className=' 2xl:w-[120px] w-[90px] transform -rotate-90 origin-center text-[11px] uppercase  border-r-2 border-golden px-0  2xl:px-4 tracking-[2px]'>   Industries</div>
   </div>
-  <div className='h-[130px] 2xl:h-36  w-full  flex flex-col justify-center items-center  2xl:mt-2 mt-4 '  onClick={() => handleTabClick('encryption')}>
+  <div className='h-[130px] 2xl:h-36  w-full  flex flex-col justify-center items-center  2xl:mt-2 mt-4 hover:text-golden cursor-pointer'  onClick={() => handleTabClick('encryption')}>
 <div className='transform -rotate-90 origin-center text-[11px] uppercase w-[190px]  2xl:w-[207px] border-r-2 border-golden  tracking-[2px]  '>   Aes 256-bit encryption</div>
   </div>
-  <div className='h-[80px] 2xl:h-[100px] w-full  flex flex-col justify-center items-center  mt-10'  onClick={() => handleTabClick('pricing')}>
+  <div className='h-[80px] 2xl:h-[100px] w-full  flex flex-col justify-center items-center  mt-10 hover:text-golden cursor-pointer'  onClick={() => handleTabClick('pricing')}>
 <div className='transform -rotate-90 origin-center text-[11px] uppercase border-r-2 border-golden  pr-2 tracking-[2px]'>  Pricing</div>
   </div>
   
