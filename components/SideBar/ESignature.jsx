@@ -1,74 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useState } from 'react';
-import Drawer from 'react-modern-drawer';
-import 'react-modern-drawer/dist/index.css';
-import { useDispatch, useSelector } from "react-redux";
-import { useRouter } from 'next/router';
+import React from 'react'
 
-const SideBarSol = () => {
-  const dispatch = useDispatch();
-  const router = useRouter();
-  // const { sidebarstate } = useSelector((state) => state.custom);
-  const [isOpen, setIsOpen] = useState(false);
-
-
-  const sidebaropen = () => {
-    dispatch({ type: "sidebaropen" });
-};
-const sidebaroff = () => {
-    dispatch({ type: "sidebaroff" });
-};
-
-  const handleSidebarToggle = () => {
-    setIsOpen(!isOpen);
-    sidebaropen();
-  };
-
-  const handleOverlayClick = () => {
-    setIsOpen(false);
-    sidebaroff();
-  };
-
-  const handleSidebarItemClick = (route) => {
-    router.push(route);
-    setIsOpen(false);
-  };
-
-  const sidebarStyle = {
-    width: isOpen ? '300px' : '40px', // Adjust the width when open or closed
-    transition: 'width 0.2s ease-in-out',
-    backgroundColor: isOpen ? 'black' : 'transparent', // Set the background color to red when open, transparent when closed
-  };
-
-  const getContent = () => {
-    if (!isOpen) {
-      return (
-<div className='bg-black absolute text-white flex flex-col mt-[70px] 2xl:mt-[110px] h-[95px]  2xl:h-[110px]   w-[40px] justify-start items-start overflow-y-hidden' onClick={handleSidebarToggle}>
-
-  <div className='  w-full  flex flex-col justify-center items-center 2xl:mt-2 '>
-<div className='transform -rotate-90 origin-center text-[11px] uppercase w-[90px]  2xl:w-[110px]  border-r-2 border-golden  2xl:px-2 tracking-[2px] mt-10 '>   Solutions</div>
-  </div>
-
-  
-</div>
-
-
-      );
-    }
-
-    return null;
-  };
-
+const ESignature = () => {
   return (
     <div>
-      {/* <button onClick={handleSidebarToggle}>Toggle Sidebar</button> */}
-      <Drawer
-        open={isOpen}
-        onClose={handleOverlayClick}
-        direction="left"
-        style={sidebarStyle}
-      >
-        <div className='h-[100vh] bg-green-500 flex flex-col items-start ml-2 overflow-y-scroll'>
+
+<div className='h-[100vh] bg-slate-500 flex flex-col items-start ml-2 overflow-y-scroll'>
           <div className='flex flex-col'>
         {/* <img src='/assets/SideBarLogo.png' alt=''  className=' w-[183px] mt-2 2xl:mt-8 '/> */
         }
@@ -136,10 +73,9 @@ const sidebaroff = () => {
             </div>
             
             Sidebar Content</div>
-      </Drawer>
-      {getContent()}
-    </div>
-  );
-};
 
-export default SideBarSol;
+    </div>
+  )
+}
+
+export default ESignature

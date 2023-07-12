@@ -2,18 +2,19 @@
 import React,{useState} from 'react'
 import ClockComponent from '../LocAndClock/ClockComponent'
 import SideBar from '../SideBar/SideBar'
-import SideBar1 from '../SideBar/SideBarProduct'
+// import SideBar1 from '../SideBar/SideBarProduct'
 
 // import  FaTachometerAlt from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
 import { useSelector } from "react-redux";
 import TryForFree from './TryForFree';
-import SideBarSol from '../SideBar/SideBarSol';
-import SideBarDoc from '../SideBar/SideBarDoc';
-import SideBarES from '../SideBar/SideBarES';
-import SideBarIndustry from '../SideBar/SideBarIndustry';
-import SideBarEncrypt from '../SideBar/SideBarEncrypt';
-import SideBarPricing from '../SideBar/SideBarPricing';
+// import SideBarSol from '../SideBar/SideBarSol';
+// import SideBarDoc from '../SideBar/SideBarDoc';
+// import SideBarES from '../SideBar/SideBarES';
+// import SideBarIndustry from '../SideBar/SideBarIndustry';
+// import SideBarEncrypt from '../SideBar/SideBarEncrypt';
+// import SideBarPricing from '../SideBar/SideBarPricing';
+import SideBar2 from '../SideBar/SideBar2';
 
 const Page1 = () => {
     const [collapsed, setCollapsed] = useState(false);
@@ -28,16 +29,15 @@ const Page1 = () => {
     
   return (
     <div className='flex flex-row  min-h-screen overflow-y-hidden'>
-
       <div className='relative h-full'>
-
-      <div className=' absolute top-0 left-0'><SideBar1/> </div>
+      <div className=' absolute top-0 left-0'><SideBar2/>  </div>
+      {/* <div className=' absolute top-0 left-0'><SideBar1/> </div>
        <div className='absolute top-[20px] 2xl:top-[13px] left-0'> <SideBarSol/> </div>
        <div className=' absolute top-[185px] 2xl:top-[232px] left-0'><SideBarDoc/> </div>
        <div className=' absolute top-[325px] 2xl:top-[410px] left-0'><SideBarES/> </div>
        <div className=' absolute top-[512px] 2xl:top-[633px] left-0'><SideBarIndustry/> </div>
        <div className=' absolute top-[609px] 2xl:top-[760px] left-0'><SideBarEncrypt/> </div> 
-       <div className=' absolute top-[814px] 2xl:top-[980px] left-0'><SideBarPricing/> </div> 
+       <div className=' absolute top-[814px] 2xl:top-[980px] left-0'><SideBarPricing/> </div>  */}
         </div>
     <div className=' w-full flex flex-col justify-start '>
         
